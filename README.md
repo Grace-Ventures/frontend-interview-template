@@ -9,13 +9,12 @@ Please pick either the `react` folder for JS, or `react-ts` folder for TS. `cd` 
 - A sample data is provided in the repository (`src/data`). You will need to call the exported async function to fetch the dummy data. Please use native React API to fetch this data.
 - With the sample data, please build a table view with these features:
   - Display all data
+    - The dummy API call has a small chance of failure, please account for this error state.
   - Sort by individual columns, ascending and descending
-  - Search for specific rows using important columns
+  - Search for specific rows using the row's data
   - Manually reorder certain rows (How would you make this interact with sorting state?)
   - Edit a row's data by entering a row edit view
-- Additionally,
-  - The dummy API call has a small chance of failure, please account for this error state.
-  - Ensure that edit view keeps to the original data format. (Only validated input can be submitted.)
+    - Ensure that the edit view keeps to the original data format (Only validated input can be submitted)
 
 ## Things to keep in mind
 - Please write the code as if it's a real contribution to a real product. As in, someone else may be coming in to add more features and make changes to your code.
