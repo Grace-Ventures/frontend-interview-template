@@ -12,7 +12,8 @@ Please pick either the `react` folder for JS, or `react-ts` folder for TS. `cd` 
     - The dummy API call has a small chance of failure, please account for this error state.
   - Sort by individual columns, ascending and descending
   - Search for specific rows using the row's data
-  - Manually reorder certain rows (How would you make this interact with sorting state?)
+  - Manually reorder certain rows
+    - (How would you make this interact with sorting state?)
   - Edit a row's data by entering a row edit view
     - Ensure that the edit view keeps to the original data format (Only validated input can be submitted)
 
