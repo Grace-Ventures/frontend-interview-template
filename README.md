@@ -14,7 +14,7 @@ Please pick either the `react` folder for JS, or `react-ts` folder for TS. `cd` 
   - Search for specific rows using the row's data
   - Manually reorder certain rows
     - (How would you make this interact with sorting state?)
-  - Edit a row's data by entering a row edit view
+  - Edit a company's description and address by entering a row edit view
     - Ensure that the edit view keeps to the original data format (Only validated input can be submitted)
 
 ## Things to keep in mind
