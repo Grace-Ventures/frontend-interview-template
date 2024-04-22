@@ -6,7 +6,7 @@ The goal of this take home interview is to replicate the daily work you may be d
 Please pick either the `react` folder for JS, or `react-ts` folder for TS. `cd` into the folder, then run the project with `npm i && npm run dev`.
 
 ## What you will be building
-- A sample data is provided in the repository (`src/data`). You will need to call the exported async function to fetch the dummy data. Please use native React API to fetch this data.
+- Sample data is provided in the repository (`src/data`). You will need to call the exported async function to fetch the dummy data. Please use native React API to fetch this data.
 - With the sample data, please build a table view with these features:
   - Display all data
     - The dummy API call has a small chance of failure, please account for this error state.
@@ -18,7 +18,7 @@ Please pick either the `react` folder for JS, or `react-ts` folder for TS. `cd` 
     - Ensure that the edit view keeps to the original data format (Only validated input can be submitted)
 
 ## Things to keep in mind
-- Please write the code as if it's a real contribution to a real product. As in, someone else may be coming in to add more features and make changes to your code.
+- Please write the code as if it's a real contribution to a real product. As in, someone else may come in later to add more features and make changes to your code.
 - The most important thing is that it works - think of it as implementing an MVP. You can use your preferred UI library to do the visual heavy lifting, but it is up to you to decide what is more UX friendly.   
 - You can use any utility packages (lodash, redux, etc) and tooling you'd like. We have set up a basic template to get you started.
 - Document your assumptions. Many parts of an application can be implemented in various ways. Describe why you chose this implementation and what other alternative you thought about.
